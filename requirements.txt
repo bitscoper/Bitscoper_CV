@@ -1,0 +1,9 @@
+# By Abdullah As-Sadeed
+
+lapx
+mediapipe
+opencv-python
+opencv-python
+py-cpuinfo
+rembg
+ultralytics
