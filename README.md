@@ -2,7 +2,7 @@
 
 # Bitscoper CV
 
-Object Classification, Object Detection, Object Segmentation, Pose Detection / Landmarking, Hand Landmarking, Face Landmarking, Background Removal, etc.
+Object Classification, Object Detection, Object Segmentation, Pose Detection / Landmarking, Hand Landmarking, Face Landmarking, Background Removal, etc. using Ultralytics, Google MediaPipe, etc.
 
 </div>
 
