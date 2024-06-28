@@ -1,11 +1,13 @@
 # By Abdullah As-Sadeed
 
+from pathlib import Path
 from tkinter import messagebox
 import cv2 as opencv
 import mediapipe as mp
 import sys
 
-from ..Common import *
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+from Common import *
 
 if __name__ == "__main__":
     mp_drawing_utils = mp.solutions.drawing_utils

@@ -5,7 +5,7 @@ import sys
 import tkinter
 import tkinter.font as tkFont
 
-TKINTER_WINDOW_WIDTH_BUFFER = 100
+TKINTER_WINDOW_WIDTH_BUFFER = 0
 
 
 def exit_program():

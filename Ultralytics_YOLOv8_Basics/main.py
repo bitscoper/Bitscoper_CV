@@ -1,11 +1,13 @@
 # By Abdullah As-Sadeed
 
-import cv2 as opencv
+from pathlib import Path
 from tkinter import messagebox
-import sys
 from ultralytics import YOLO
+import cv2 as opencv
+import sys
 
-from ..Common import *
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+from Common import *
 
 if __name__ == "__main__":
     IMAGE_FILE_INPUT = "Image File"

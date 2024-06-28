@@ -1,11 +1,13 @@
 # By Abdullah As-Sadeed
 
 from PIL import Image
+from pathlib import Path
 from rembg import remove
 import os
 import sys
 
-from ..Common import *
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+from Common import *
 
 if __name__ == "__main__":
     input_path = select_directory_or_file("File")
